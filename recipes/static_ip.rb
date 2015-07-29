@@ -13,15 +13,13 @@ end
 
 puts! node['static_ip'], 'static ip to assign is'
 
-static_ip = node['static_ip'] || "192.168.56.2"
-
-template "/etc/apache2/sites-available/#{site['name']}.conf" do
-  source "etc/apache2/sites-available/balanced_site.conf.erb"
-  owner site['user']
-  group site['user']
-  mode "0664"
-  
-  variables(
-    :static_ip => static_ip
-  )
+static_ip = node['static_ip']
+if static_ip
+  template "/etc/network/interfaces" do
+    source "etc/network/interfaces.erb"
+    mode "0664"  
+    variables(
+      :static_ip => static_ip
+    )
+  end
 end
