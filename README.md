@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Piousbox-cookbooks/ish_vm.svg?branch=0.1.1)](https://travis-ci.org/Piousbox-cookbooks/ish_vm)
+[![Build Status](https://travis-ci.org/Piousbox-cookbooks/ish_vm.svg?branch=master)](https://travis-ci.org/Piousbox-cookbooks/ish_vm)
 
 
 Intro
