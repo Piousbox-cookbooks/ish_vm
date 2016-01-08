@@ -1,7 +1,5 @@
 
-def puts! args, label=""
-  puts "+++ +++ #{label}"
-  puts args.inspect
-end
+# search sites, get the hostname that belongs to me.
 
-puts! node['hostname'], 'hostname is'
+# set the hostname
+

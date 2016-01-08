@@ -3,6 +3,11 @@ ish_vm CHANGELOG
 
 This file is used to list changes made in each version of the ish_vm cookbook.
 
+0.1.1
+-----
+* introducing chef-spec
+* working on hostname
+
 0.1.0
 -----
 - [your_name] - Initial release of ish_vm

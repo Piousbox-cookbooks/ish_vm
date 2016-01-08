@@ -1,0 +1,8 @@
+PATH
+  remote: .
+  specs:
+    ish_vm (0.1.1)
+
+DEPENDENCIES
+  ish_vm (>= 0)
+
