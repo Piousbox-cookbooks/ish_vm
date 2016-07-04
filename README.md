@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/Piousbox-cookbooks/ish_vm.svg?branch=0.1.1)](https://travis-ci.org/Piousbox-cookbooks/ish_vm)
 
-
 Intro
 =====
 
@@ -13,7 +12,7 @@ Recipes
 
 default
 -------
-Does nothing.
+Formerly base_vm, installs a bunch of stuff.
 
 hostname
 --------
@@ -36,3 +35,9 @@ The data bag looks like this
 ```
 
 Such that the hostname of the node having that ip (on any interface) becomes that domain.
+
+Testing
+=======
+
+ be rspec spec 2>/dev/null
+

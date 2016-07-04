@@ -1,5 +1,5 @@
 site "https://supermarket.getchef.com/api/v1"
 
-# cookbook "ish"
+cookbook "ish", :path => '../ish'
 # cookbook "ish_apache"
 cookbook "ish_vm", :path => "."
